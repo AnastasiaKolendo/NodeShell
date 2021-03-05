@@ -1,8 +1,20 @@
 process.stdout.write('prompt > ');
-process.stdin.on('data', (data) =>{
-    //const cmd = data.toString().trim();
-    //const path = node.path.toString();
-    let path = process.cwd();
-    process.stdout.write('Your working directory: ' + path);
-    process.stdout.write('\nprompt > ')
-})
+
+
+let catArgs = process.argv.slice(' ')
+
+
+
+
+console.log(catArgs)
+
+if(catArgs.length === 2) {
+    const cat = require('./cat.js')(catArgs[1])
+}
+if(catArgs === 'pwd') {
+    const pwd = require('./pwd.js')
+}
+
+if(catArgs === 'ls') {
+    const ls = require('./ls.js')
+}
