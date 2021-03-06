@@ -5,7 +5,7 @@ process.stdin.on("data", (data) => {
         const cat = require("./cat.js")(args[1]);
     } else if (args.join('') === "pwd") {
         const pwd = require("./pwd.js");
-        // pwd();
+        pwd();
     } else if (args.join('') === "ls") {
         const ls = require("./ls.js");
     }
