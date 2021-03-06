@@ -6,7 +6,6 @@ fs.readdir('./', 'utf8', (err, files) => {
     }
     else {
         process.stdout.write(files.join('\n'))
-        process.stdout.write('prompt > ')
     }
 })
 
