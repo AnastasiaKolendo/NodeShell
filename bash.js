@@ -12,6 +12,5 @@ process.stdin.on("data", (data) => {
     } else {
         process.stdout.write("command not found\n");
     }
-    process.stdout.write("prompt > ");
 });
 

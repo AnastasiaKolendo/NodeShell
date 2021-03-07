@@ -8,4 +8,5 @@ module.exports = (file) => {
       process.stdout.write(data);
     }
   });
+  process.stdout.write("\nprompt > ");
 };
