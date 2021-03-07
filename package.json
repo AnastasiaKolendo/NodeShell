@@ -1,0 +1,25 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "Node shell",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaKolendo/NodeShell.git"
+  },
+  "keywords": [
+    "Anastas"
+  ],
+  "author": "Anastasia Kolendo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaKolendo/NodeShell/issues"
+  },
+  "homepage": "https://github.com/AnastasiaKolendo/NodeShell#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
